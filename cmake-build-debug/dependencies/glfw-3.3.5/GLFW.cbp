@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\glfw-3.3.5\;CMake Files\dependencies\glfw-3.3.5\src\;CMake Files\dependencies\glfw-3.3.5\examples\;CMake Files\dependencies\glfw-3.3.5\tests\;CMake Files\Google_tests\;CMake Files\Google_tests\lib\;CMake Files\Google_tests\lib\googlemock\;CMake Files\Google_tests\lib\googlemock\cmake\;CMake Files\Google_tests\lib\googletest\;CMake Files\Google_tests\lib\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="update_mappings">
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 update_mappings"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/heightmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 heightmap"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/heightmap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 heightmap/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/gears" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 gears"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/gears" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 gears/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/boing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 boing"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/boing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 boing/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="offscreen">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/offscreen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 offscreen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="offscreen/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/offscreen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 offscreen/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/particles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 particles"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/particles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 particles/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/wave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 wave"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/wave" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 wave/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/sharing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 sharing"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/sharing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 sharing/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 simple"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/simple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 simple/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/splitview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 splitview"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/splitview" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 splitview/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/reopen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 reopen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/reopen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 reopen/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inputlag">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/inputlag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 inputlag"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inputlag/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/inputlag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 inputlag/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/monitors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 monitors"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/monitors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 monitors/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/iconify" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 iconify"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/iconify" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 iconify/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/gamma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 gamma"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/gamma" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 gamma/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icon">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/icon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 icon"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icon/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/icon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 icon/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/tearing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 tearing"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/tearing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 tearing/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 empty"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/empty" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 empty/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/events" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 events"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/events" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 events/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/msaa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 msaa"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/msaa" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 msaa/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/cursor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 cursor"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/cursor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 cursor/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/threads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 threads"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/threads" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 threads/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/glfwinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 glfwinfo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/glfwinfo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 glfwinfo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/joysticks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 joysticks"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/joysticks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 joysticks/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opacity">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/opacity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 opacity"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opacity/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/opacity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 opacity/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/windows" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 windows"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/windows" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 windows/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/clipboard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clipboard"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/clipboard" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clipboard/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/title" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 title"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/title" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 title/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle-vulkan">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/triangle-vulkan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 triangle-vulkan"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangle-vulkan/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/triangle-vulkan" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 triangle-vulkan/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeout">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/timeout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 timeout"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeout/fast">
+				<Option output="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/timeout" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps"/>
+					<Add directory="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 timeout/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/dependencies/glfw-3.3.5/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/CMake/GenerateMappings.cmake">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps/getopt.c">
+			<Option target="particles"/>
+			<Option target="inputlag"/>
+			<Option target="monitors"/>
+			<Option target="iconify"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="glfwinfo"/>
+			<Option target="windows"/>
+			<Option target="clipboard"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps/getopt.h">
+			<Option target="particles"/>
+			<Option target="inputlag"/>
+			<Option target="monitors"/>
+			<Option target="iconify"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="glfwinfo"/>
+			<Option target="windows"/>
+			<Option target="clipboard"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps/glad/gl.h">
+			<Option target="heightmap"/>
+			<Option target="gears"/>
+			<Option target="boing"/>
+			<Option target="offscreen"/>
+			<Option target="particles"/>
+			<Option target="wave"/>
+			<Option target="sharing"/>
+			<Option target="simple"/>
+			<Option target="splitview"/>
+			<Option target="reopen"/>
+			<Option target="inputlag"/>
+			<Option target="monitors"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="icon"/>
+			<Option target="tearing"/>
+			<Option target="empty"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="cursor"/>
+			<Option target="threads"/>
+			<Option target="glfwinfo"/>
+			<Option target="joysticks"/>
+			<Option target="opacity"/>
+			<Option target="windows"/>
+			<Option target="clipboard"/>
+			<Option target="title"/>
+			<Option target="timeout"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps/glad/vulkan.h">
+			<Option target="glfwinfo"/>
+			<Option target="triangle-vulkan"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps/glad_gl.c">
+			<Option target="heightmap"/>
+			<Option target="gears"/>
+			<Option target="boing"/>
+			<Option target="offscreen"/>
+			<Option target="particles"/>
+			<Option target="wave"/>
+			<Option target="sharing"/>
+			<Option target="simple"/>
+			<Option target="splitview"/>
+			<Option target="reopen"/>
+			<Option target="inputlag"/>
+			<Option target="monitors"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="icon"/>
+			<Option target="tearing"/>
+			<Option target="empty"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="cursor"/>
+			<Option target="threads"/>
+			<Option target="glfwinfo"/>
+			<Option target="joysticks"/>
+			<Option target="opacity"/>
+			<Option target="windows"/>
+			<Option target="clipboard"/>
+			<Option target="title"/>
+			<Option target="timeout"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps/glad_vulkan.c">
+			<Option target="glfwinfo"/>
+			<Option target="triangle-vulkan"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps/tinycthread.c">
+			<Option target="particles"/>
+			<Option target="empty"/>
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/deps/tinycthread.h">
+			<Option target="particles"/>
+			<Option target="empty"/>
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/boing.c">
+			<Option target="boing"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/gears.c">
+			<Option target="gears"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/heightmap.c">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/offscreen.c">
+			<Option target="offscreen"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/particles.c">
+			<Option target="particles"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/sharing.c">
+			<Option target="sharing"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/simple.c">
+			<Option target="simple"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/splitview.c">
+			<Option target="splitview"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/wave.c">
+			<Option target="wave"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/mappings.h.in">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/clipboard.c">
+			<Option target="clipboard"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/cursor.c">
+			<Option target="cursor"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/empty.c">
+			<Option target="empty"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/events.c">
+			<Option target="events"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/gamma.c">
+			<Option target="gamma"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/glfwinfo.c">
+			<Option target="glfwinfo"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/icon.c">
+			<Option target="icon"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/iconify.c">
+			<Option target="iconify"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/inputlag.c">
+			<Option target="inputlag"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/joysticks.c">
+			<Option target="joysticks"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/monitors.c">
+			<Option target="monitors"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/msaa.c">
+			<Option target="msaa"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/opacity.c">
+			<Option target="opacity"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/reopen.c">
+			<Option target="reopen"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/tearing.c">
+			<Option target="tearing"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/threads.c">
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/timeout.c">
+			<Option target="timeout"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/title.c">
+			<Option target="title"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/triangle-vulkan.c">
+			<Option target="triangle-vulkan"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/windows.c">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\glfw-3.3.5\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\glfw-3.3.5\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\glfw-3.3.5\src\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\dependencies\glfw-3.3.5\src\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\glfw-3.3.5\src\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\dependencies\glfw-3.3.5\src\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\glfw-3.3.5\examples\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glfw-3.3.5/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\glfw-3.3.5\tests\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
