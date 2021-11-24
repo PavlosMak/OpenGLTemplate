@@ -9,7 +9,7 @@ add_subdirectory(Google_tests)
 
 #Directories to look for source code
 include_directories(dependencies/glfw-3.3.5/include)
-
+include_directories(dependencies/glm)
 
 add_executable(template main.cpp)
 
