@@ -4,7 +4,7 @@ A template for OpenGL projects that uses [GLFW](https://www.glfw.org/), [GLEW](h
 testing. 
 
 ## About
-This repository contains a simple template that can be used to build graphics projects that rely on OpenGL. It is meant to be used in any machine that supports OpenGL and CMAKE, so it does not make any assumptions about the IDE/text editor you use or your operating system. 
+This repository contains a simple template that can be used to build graphics projects that rely on OpenGL. It is meant to be used in any machine that supports OpenGL and CMAKE, so it does not make any assumptions about the IDE/text editor you use or your operating system. If you are on a Unix like system you might have to install X11 dependencies to compile GLFW. More information about this can be found [here](https://www.glfw.org/docs/3.3/compile.html).
 
 ## How to use
 To make your project with this template the following steps are suggested. I have tried to make every step as explicit as possible so please do **not** be intimidated by the number of them.
