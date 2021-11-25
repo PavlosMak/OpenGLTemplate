@@ -5,7 +5,7 @@
 		<Option title="googletest-distribution"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Google_tests\;CMake Files\Google_tests\lib\;CMake Files\Google_tests\lib\googlemock\;CMake Files\Google_tests\lib\googlemock\cmake\;CMake Files\Google_tests\lib\googletest\;CMake Files\Google_tests\lib\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Google_tests\;CMake Files\Google_tests\lib\;CMake Files\Google_tests\lib\googlemock\;CMake Files\Google_tests\lib\googlemock\cmake\;CMake Files\Google_tests\lib\googletest\;CMake Files\Google_tests\lib\googletest\cmake\;CMake Files\dependencies\;CMake Files\dependencies\glew-2.1.0\;CMake Files\dependencies\glew-2.1.0\build\;CMake Files\dependencies\glew-2.1.0\build\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/pavlos/Desktop/OpenGlTemplate/cmake-build-debug/Google_tests/lib"/>
@@ -262,6 +262,15 @@
 		</Unit>
 		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/Google_tests/lib/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\Google_tests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glew-2.1.0/glew.pc.in">
+			<Option virtualFolder="CMake Files\dependencies\glew-2.1.0\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glew-2.1.0/build/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\glew-2.1.0\build\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pavlos/Desktop/OpenGlTemplate/dependencies/glew-2.1.0/build/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\glew-2.1.0\build\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
